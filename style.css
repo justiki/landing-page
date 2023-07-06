@@ -1,3 +1,90 @@
-body {
+/* style for the header, and navigation */
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    margin-right: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-start;
     
+}
+
+ul {
+    list-style: none;
+    color: #e5e7eb;
+    display: flex;
+    font-size: 18px;
+    gap: 16px;
+}
+
+/* style for the hero text */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    justify-content: space-evenly;
+    gap: 5px;
+    padding-bottom: 100px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero .main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    flex-wrap: wrap;
+}
+
+.hero .secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-image {
+    width: 250px;
+    height: 250px;
+}
+.sign-up {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+/* extra stuff that isn't hero, or main */
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
 }
